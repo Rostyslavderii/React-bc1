@@ -30,26 +30,9 @@ export const App = () => {
           avatar={user.avatar}
           stats={user.stats}
         />
-
-        {/* {tacos.map((imageUrl, productPrice, showDiscount, obj, aboba, taco) => {
-        return(
-      <BlackSmith
-      key={taco.id}
-      imageUrl={imageUrl}
-      productPrice={productPrice}
-      aboba = 'aboba2'
-      {...obj}
-      showDiscount={true}/>);
-      })}; */}
       </div>
       <div>
-        <Statistics
-          // id={data.id}
-          // label={data.label}
-          // percentage={data.percentage}
-          title="Upload stats"
-          stats={data}
-        />
+        <Statistics title="Upload stats" stats={data} />
         <Statistics stats={data} />
       </div>
       <div>

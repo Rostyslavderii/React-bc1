@@ -46,11 +46,6 @@ function Profile(props) {
           <span className={cn(styles.quantity)}>{props.stats.likes}</span>
         </li>
       </ul>
-      {/* <Alert variant="warning " outlined={props.likes} textCenter={props.views}>
-        Here is an orang Alert
-      </Alert>
-      <Alert variant="warning">Here is an colol Alert</Alert>
-      <Alert variant="warning">Here is an start Alert</Alert> */}
     </div>
   );
 }
