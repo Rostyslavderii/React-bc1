@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import styles from './Profile.module.scss';
 import cn from 'classnames';
 
@@ -26,8 +25,7 @@ function Profile(props) {
       <img
         className={cn(styles.avatars)}
         src={props.avatar}
-        alt="User avatar"
-        class="avatar"
+        alt={props.username}
       />
       <p className={cn(styles.name)}>{props.username}</p>
       <p className={cn(styles.tag)}>{props.tag}</p>
