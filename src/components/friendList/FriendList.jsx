@@ -1,8 +1,6 @@
 import React from 'react';
 import FriendItem from './fiendItem/FriendItem';
-// import PropTypes from 'prop-types';
-// import styles from './friends.module.scss';
-// import cn from 'classnames';
+import PropTypes from 'prop-types';
 
 function FriendList({ friends }) {
   return (
@@ -13,5 +11,9 @@ function FriendList({ friends }) {
     </div>
   );
 }
+
+FriendList.propTypes = {
+  friends: PropTypes.arrayOf(PropTypes.object).isRequired,
+};
 
 export default FriendList;
