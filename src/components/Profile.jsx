@@ -50,11 +50,4 @@ function Profile(props) {
   );
 }
 
-// Profile.propTypes = {
-//   productPrice: PropTypes.number.isRequired,
-//   imageUrl: PropTypes.string.isRequired,
-//   aboba: PropTypes.string.isRequired,
-//   showDiscount: PropTypes.bool,
-// }
-
 export default Profile;
