@@ -3,17 +3,16 @@ import styles from './Profile.module.scss';
 import cn from 'classnames';
 
 function Profile(props) {
-  const style = {
-    //color: 'black!!!
-    margin: 8,
-    color: /*black*/ 'black',
-    height: '100vh',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    fontSize: 40,
-    color: '#010101',
-  };
+  // const style = {
+  //   //color: 'black!!!
+  //   margin: 8,
+  //   height: '100vh',
+  //   display: 'flex',
+  //   justifyContent: 'center',
+  //   alignItems: 'center',
+  //   fontSize: 40,
+  //   color: '#010101',
+  // };
   console.log('props', props);
   return (
     //   <div
