@@ -16,7 +16,6 @@ export const App = () => {
   //   obj: {1: 1, 2: 2, 3: 3, 4: 4, 5: 5},
   //   showDiscount: true,
   // },
-  // ]
   console.log({ friends });
   console.log(friends);
   return (
