@@ -1,11 +1,11 @@
-import user from './user.json/user.json';
+import user from './User.json/user.json';
 import data from './Statistics/data.json';
 import Profile from './Profile';
 import Statistics from './Statistics/Statistics';
-import friends from './friendList/friends.json';
-import FriendList from './friendList/FriendList';
-import transactions from './transactions/transactions.json';
-import TransactionHistory from './transactions/TransactionHistory';
+import friends from './FriendList/friends.json';
+import FriendList from './FriendList/FriendList';
+import transactions from './Transactions/transactions.json';
+import TransactionHistory from './Transactions/TransactionHistory';
 
 export const App = () => {
   //   const tacos = [

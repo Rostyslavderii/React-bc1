@@ -1,12 +1,14 @@
 import React from 'react';
-import FriendItem from './fiendItem/FriendItem';
+import FriendItem from './FiendItem/FriendItem';
 import PropTypes from 'prop-types';
 
 function FriendList({ friends }) {
   return (
     <div>
       <ul>
-        <FriendItem friends={friends} />
+        {friends.map(label => {
+          return <FriendItem label={label} key={label.id} />;
+        })}
       </ul>
     </div>
   );
